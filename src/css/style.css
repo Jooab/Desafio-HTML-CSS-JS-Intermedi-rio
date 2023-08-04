@@ -1,0 +1,82 @@
+html {
+    font-family: 'Roboto', sans-serif;
+    background-image: url(../images/bg-repeat.jpg);
+}
+
+body {
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin: 12px 50px;
+}
+
+.duvida {
+    color: #FFFFFF;
+    width: 350px;
+    height: 111px;
+    margin-right: 60px;
+}
+
+.duvida h1 {
+    font-size: 20px;
+    margin-bottom: 11px;
+    width: 90%;
+}
+
+.duvida span {
+    font-size: 15px;
+    width: 90%;
+    display: block;
+}
+
+.formulario {
+    width: 340px;
+    height: 378px;
+    background-color: #FFFFFF;
+    padding: 20px;
+}
+
+.formulario .input {
+    width: 298px;
+    height: 35px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.formulario .input:nth-child(7) {
+    height: 100px;
+}
+
+.formulario .input::placeholder {
+    font-weight: 700;
+    color: #A8A8A8;
+    font-family: inherit;
+    position: absolute;
+    top: 10px;
+}
+
+.formulario .botao {
+    width: 298px;
+    height: 41px;
+    color: #FFFFFF;
+    background-color: #3CCC87;
+    border-radius: 5px;
+    border: none;
+    margin-top: 11px;
+}
+
+.formulario .opacidade {
+    opacity: 0;
+}
+
+.formulario p {
+    color: #F52E2E;
+    font-size: 8px;
+    margin-bottom: 7px;
+}
