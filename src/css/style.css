@@ -1,8 +1,7 @@
 html {
     font-family: 'Roboto', sans-serif;
-    background: rgb(241, 97, 141);
+    background: rgb(241, 97, 141) cover;
     background: linear-gradient(180deg, rgba(241, 97, 141, 1) 0%, rgba(137, 137, 250, 1) 83%, rgba(81, 133, 245, 1) 100%);
-    
 }
 
 body {

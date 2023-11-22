@@ -1,5 +1,22 @@
 
+@media (min-width:1440px) {
+    .duvida h1 {
+        font-size: 25px;
+    }
 
+    .duvida span {
+        font-size: 20px;
+    }
+
+    .duvida {
+        width: 450px;
+    }
+
+    .formulario .input {
+        width: 95%;
+        height: 50px;
+    }
+}
 
 @media (max-width:768px) {
     .container {
@@ -42,10 +59,6 @@
 }
 
 @media (max-width:370px) {
-
-    html {
-        overflow: hidden;
-    }
 
     .duvida {
         height: 75px;
