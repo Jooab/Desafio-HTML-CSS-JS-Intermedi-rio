@@ -1,0 +1,66 @@
+
+
+
+@media (max-width:768px) {
+    .container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .duvida {
+        margin: 0 0 20px 20px;
+    }
+
+    .formulario {
+        width: 65%;
+    }
+   
+}
+
+@media (max-width:620px) {
+
+    .formulario {
+        width: 90%;
+    }
+   
+}
+
+@media (max-width: 425px) {
+
+
+    .container {
+        margin: 10px 25px;
+    }
+
+    .duvida h1 {
+        font-size: 18px;
+    }
+
+    .duvida span {
+        font-size: 13px;
+    }
+}
+
+@media (max-width:370px) {
+
+    html {
+        overflow: hidden;
+    }
+
+    .duvida {
+        height: 75px;
+    }
+
+    .duvida h1 {
+        font-size: 15px;
+    }
+
+    .duvida span {
+        font-size: 10px;
+    }
+
+
+    .formulario {
+        width: 100%;
+    }
+}

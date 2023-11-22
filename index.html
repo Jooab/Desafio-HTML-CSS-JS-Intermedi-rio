@@ -10,13 +10,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/css/responsive.css">
 </head>
 
 <body>
     <main class="container">
         <section class="duvida">
             <h1>FICOU COM DÚVIDA? NOS MANDE UMA MENSAGEM!</h1>
-            <span>caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em contato em menos
+            <span>Caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em contato em menos
                 de
                 24h.</span>
         </section>
@@ -28,10 +29,10 @@
                 <p class="opacidade" class="aviso">campo obrigatório</p>
                 <input type="text" name="telefone" id="telefone" placeholder="Telefone *" class="input">
                 <p class="opacidade" class="aviso">campo obrigatório</p>
-                <input type="text" name="mensagem" id="mensagem" placeholder="Mensagem *" class="input">
+                <textarea name="mensagem" id="mensagem" placeholder="Mensagem *" class="input" cols="30" rows="10"></textarea>
                 <p class="opacidade" class="aviso">campo obrigatório</p>
                 <span>*campos obrigatórios</span>
-                <button class="botao">Enviar</button>
+                <button type="submit" class="botao">Enviar</button>
             </form>
         </section>
     </main>
